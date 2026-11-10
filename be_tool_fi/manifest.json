@@ -1,0 +1,41 @@
+{
+  "product": "BE_TOOL_FI",
+  "channel": "stable",
+  "generated": "2026-11-10T15:46:07Z",
+  "firmware": {
+    "version": "V2.7.262",
+    "vcode": 207262,
+    "size": 1498304,
+    "sha256": "299431f43f997c69725d33c8f5e37146e8083dfcc9e9c42f1d166fc2c5792b43",
+    "sig": "770eb785e4b87fa6bf9cd65dd12b37453dd5b3640e569f0dc00ef40ab4c0d9a2ee118a8627e9f471520f76061a316584ed51d5e46dce01e99bdebc5bad82ef3e",
+    "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_262_PRODUKSI.bin",
+    "notes": "Firmware PRODUKSI (terkunci lisensi Chip ID): APK Android + Bluetooth + OTA + log terenkripsi",
+    "full": {
+      "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_262_PRODUKSI_FULL.bin",
+      "size": 4194304,
+      "sha256": "646d1130ec9f1f2ed232319d5cd8e364e6793796e2a313a452f9d2987d8b28e0",
+      "sig": "3c43a823370d7c893e803cc389225ffd0d9bc08d6fc318fce775cca0ca237ea979329450ce873c13c4401c2750978a289025c34cf082a4ac6839f6f73c37f38a",
+      "produksi": true
+    }
+  },
+  "news": [
+    {
+      "id": "2026-11-10-01",
+      "type": "info",
+      "title": "Selamat datang di BE TOOL FI",
+      "body": "Notifikasi sudah aktif. Kamu akan diberi tahu saat ada versi baru aplikasi, firmware alat, fitur baru, atau perbaikan.",
+      "date": "2026-11-10",
+      "url": "",
+      "sig": "ef70c1e47c28378e7aa56a0b85c2c08cf2b213f455d1b532d4c2748c1473ede6cd7aff28ed09318dc543419fe6b410a254ae26c8ac4890527e5e57a4ebd1f36e"
+    }
+  ],
+  "pc": {
+    "version": "1.0.0",
+    "vcode": 1,
+    "size": 15881009,
+    "sha256": "c4879d24f2307d203506f6f4c0ca23f584076424a69679c3a9b04ae6c876e78f",
+    "sig": "f1a42a7ae3d3b9454e5dd23336d3a6add9cc3589b31aad8fca15b2d4026339990e9e87191e86ab7f92a8e3dde7999141d2d145f51a3d93cc750fb96b5688ab5b",
+    "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_PRODUKSI_1.0.0.exe",
+    "notes": "Aplikasi PC meja produksi: flash FULL + lisensi satu klik, online"
+  }
+}

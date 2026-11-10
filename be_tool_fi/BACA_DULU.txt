@@ -1,0 +1,25 @@
+PAKET SERVER BE TOOL FI  (upload ke GitHub: repo fuadbastari/firmEsp32, folder be_tool_fi/)
+=========================================================================================
+PENTING: ditandatangani kunci DEV (KEY ID 5F04BEE4) -> HANYA UNTUK UJI.
+Sebelum alat dijual: buat kunci PRODUKSI, build ulang firmware + APK, tanda tangani ulang
+(app_android/PROYEK_APP_ANDROID.md bagian 6, 7 dan 11).
+
+Isi folder:
+- manifest.json                          daftar versi + tanda tangan (firmware, firmware FULL, aplikasi PC, kabar)
+- BE_TOOL_FI_V2_7_262_PRODUKSI.bin       firmware V2.7.262 PRODUKSI untuk update lewat HP (OTA)
+- BE_TOOL_FI_V2_7_262_PRODUKSI_FULL.bin  firmware yang sama, image FULL 4 MB untuk aplikasi PC produksi (flash @0x0)
+- BE_TOOL_FI_PRODUKSI_1.0.0.exe          aplikasi PC produksi (Windows); meja produksi lain bisa mengunduhnya
+                                         dari tombol "Unduh versi baru" saat ada versi lebih baru
+APK belum dimasukkan: APK sekarang masih kunci debug (secret BE_KEYSTORE_PASS belum dipasang).
+
+Cara upload (lewat browser):
+1. Buka github.com/fuadbastari/firmEsp32 (repo harus PUBLIC supaya HP & PC bisa mengunduh).
+2. Masuk folder be_tool_fi -> Add file -> Upload files -> seret SEMUA file di folder ini -> Commit changes.
+   (File lama BE_TOOL_FI_V2_7_262.bin boleh tetap ada; manifest baru menunjuk file _PRODUKSI.)
+3. Cek di browser: https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/manifest.json
+   -> tampil teks JSON (perubahan bisa butuh +-5 menit sampai terlihat).
+4. Buka BE_TOOL_FI_PRODUKSI_1.0.0.exe -> muat kunci DEV -> pojok kanan atas "SERVER: ONLINE" dan
+   "Dipakai: V2.7.262 FULL PRODUKSI dari server - tanda tangan SAH".
+
+Diverifikasi 10 Nov 2026 dengan logika aplikasi PC: tanda tangan + SHA-256 OTA, FULL, EXE dan kabar SAH;
+FULL = mode PRODUKSI, kunci publik cocok, app di dalam FULL identik dengan file OTA.
