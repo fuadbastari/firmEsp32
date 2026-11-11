@@ -1,24 +1,33 @@
 {
   "product": "BE_TOOL_FI",
   "channel": "stable",
-  "generated": "2026-11-10T15:46:07Z",
+  "generated": "2026-11-11T00:28:28Z",
   "firmware": {
-    "version": "V2.7.262",
-    "vcode": 207262,
-    "size": 1498304,
-    "sha256": "299431f43f997c69725d33c8f5e37146e8083dfcc9e9c42f1d166fc2c5792b43",
-    "sig": "770eb785e4b87fa6bf9cd65dd12b37453dd5b3640e569f0dc00ef40ab4c0d9a2ee118a8627e9f471520f76061a316584ed51d5e46dce01e99bdebc5bad82ef3e",
-    "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_262_PRODUKSI.bin",
-    "notes": "Firmware PRODUKSI (terkunci lisensi Chip ID): APK Android + Bluetooth + OTA + log terenkripsi",
+    "version": "V2.7.263",
+    "vcode": 207263,
+    "size": 1504256,
+    "sha256": "a3e20c1111553b9e75880321fb78bad100ecc3e200c2f634db7d4a8aeb14f255",
+    "sig": "e027a7be9a1fec8716f2f686cdbf53c7c031209a3680b5499fea791fd1e9a05bdf10ec60e8436544e72470dcc4fdaeac1c51d71f02f7b8f5ecbfa2c7de4f8196",
+    "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_263_PRODUKSI.bin",
+    "notes": "Firmware PRODUKSI: semua layar alat tampil native di APK 1.4.0 (menu, live data lengkap + grafik, proses tulis, perintah kontak OFF/ON), OLED mode Bluetooth, timing ECU tidak berubah",
     "full": {
-      "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_262_PRODUKSI_FULL.bin",
+      "url": "https://raw.githubusercontent.com/fuadbastari/firmEsp32/main/be_tool_fi/BE_TOOL_FI_V2_7_263_PRODUKSI_FULL.bin",
       "size": 4194304,
-      "sha256": "646d1130ec9f1f2ed232319d5cd8e364e6793796e2a313a452f9d2987d8b28e0",
-      "sig": "3c43a823370d7c893e803cc389225ffd0d9bc08d6fc318fce775cca0ca237ea979329450ce873c13c4401c2750978a289025c34cf082a4ac6839f6f73c37f38a",
+      "sha256": "ba139484f417833847027934f6750d66b25c2c999c5aacdc2ed113ab2ddbe7eb",
+      "sig": "e946ee1be7cafebf0328551daa088c6d059e9435d3584849eb791c2fa5c539c83b5eebd058580325cfd244de907eb14e5af59cd4a2aa2fe8a596aaa2bd85a4f2",
       "produksi": true
     }
   },
   "news": [
+    {
+      "id": "2026-11-11-01",
+      "type": "fitur",
+      "title": "Tampilan baru APK 1.4.0 + Firmware V2.7.263",
+      "body": "Semua menu alat tampil rapi di HP, live data Honda semua nilai + grafik + label (aki mengisi, suhu normal, dll.), rekam & bagikan CSV, layar bisa diputar, bahasa Indonesia/English.",
+      "date": "2026-11-11",
+      "url": "",
+      "sig": "b717a1233f17e6409583f03dbeaa786a9412af15602f48b36e9339e57e9626a74d2dcce6e9b36da3f23ac8a6ee0ce83c4594dbda68c6f54a66e33b70c0e01614"
+    },
     {
       "id": "2026-11-10-01",
       "type": "info",
